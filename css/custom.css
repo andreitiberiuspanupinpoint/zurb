@@ -1,0 +1,29 @@
+/*fonts*/
+@font-face {
+  font-family: lato;
+  src: url("lato.ttf");
+}
+@font-face {
+  font-family: lato_B;
+  src: url("LatoBold.ttf");
+}
+/*general use*/
+body {
+  font-family: lato;
+  background: #FFF;
+}
+
+h1 {
+  font-size: 155px;
+}
+
+h2 {
+  font-size: 18px;
+  font-family: lato_B;
+}
+
+p {
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=custom.css.map */
