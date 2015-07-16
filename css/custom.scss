@@ -2,7 +2,7 @@
 
 @font-face{
 	
-	font-family: lato;
+	font-family:lato;
 	src:url('lato.ttf');
 
 }
@@ -14,19 +14,110 @@
 
 
 /*general use*/
+// colors
+$star-orange:#f06c64;
+$marine-blue:#666d89;
+
 body{
-	font-family: lato;
 	background: #FFF;
 }
 
-h1{
-	font-size: 155px; 
-}
-
-h2{
-	font-size: 18px;
-	font-family: lato_B;
-}
 p{
 	font-size: 12px;
+	color: $marine-blue;
+}
+
+/*====================================================================top-menu*/
+.top-bar{
+	min-height: 100px;
+}
+
+.title-area{
+	padding: 25px;
+}
+
+.top-menu .name h1{
+	text-transform: uppercase;
+	color: white;
+	font-family: lato;
+	font-size: 25px;	
+}
+
+.top-menu .name span{
+	color:$star-orange;
+	font-size: 25px;
+}
+
+.top-bar-section{
+	padding-top: 30px;
+}
+
+.top-menu .top-bar-section a{
+	font-size: 12px;
+	font-family: lato;
+	text-transform: uppercase;
+}
+
+.top-bar-section li a:hover{
+	background-color: #FFF;
+}
+
+.top-menu .divider-custom{
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+/*============================================================================slider*/
+.slick-slider{
+	margin-bottom: 0;
+}
+
+.slick-next, .slick-prev{
+	display: none!important;
+}
+
+/*===========================================================================vision*/
+.vision{
+
+	.row{
+		background-color: #f2f2f2;
+	}
+
+	h1{
+		font-size: 30px;
+		font-family: lato;
+		color: $marine-blue;
+	}
+	p{	
+		font-size: 15px;
+		font-family: lato;
+	}
+
+	.image-holder{
+		padding-top: 10px;
+	}
+
+	.image-holder.large-3 {
+		padding: 0;
+	}
+
+}
+
+.sub-vision{
+	h2{
+		font-size: 18px;
+		font-family: lato_B;
+		color: $marine-blue;
+	}
+	p{
+		line-height: 1.6em;
+		font-size: 12px;
+	}
+}
+
+// media queries
+@media all and (max-width: 750px){
+	.top-bar-section{
+		padding: 0;
+	}
 }

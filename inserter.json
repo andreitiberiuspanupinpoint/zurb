@@ -1,0 +1,12 @@
+
+	{
+	  "one": "<h2>HTML 5</h2><p>The very first step in my journey of becoming a web developer. From doctype declaration up to new semantic and multimedia elements.</p>",
+	  "two": "<h2>CSS / CSS3</h2><p>Excellent! where would the style go? from regular to new features as transforamations and animations. But never inline.</p>",
+	  "three": "<h2>Javascript</h2><p>I just love to see how Javascript takes control over the DOM. ECMAScript 5 is the name of the game.</p>",
+	  "four": "<h2>jQuery</h2><p>From sliders to counters, from page elements animations to front validation, just like Javascript only more fun.</p>",
+	  "five": "<h2>Adobe Suite</h2><p>Ps, Ai, Fw, Fl, Dw. Yes! Every day, every time! A must have in the suitcase of skills.</p>",
+	  "six": "<h2>Responsive Design</h2><p>Fixed layout is obsolete. With all the new mobile devices and screen sizes, responsive design is the key.</p>",
+	  "seven": "<h2>MySQL</h2><p>The most widely used open-source Database Management System. Since my designs became more complex, I needed this upgrade.</p>",
+	  "eight": "<h2>PHP</h2><p>Now a brand new chapter opened: dynamic websites, database queries, server-side validations, user acces, sessions and many more.</p>",
+	  "nine": "<h2>Ajax</h2><p>Works with the server and PHP to deliver fast, dynamic content.</p>"
+	}
